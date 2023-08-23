@@ -15,3 +15,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::-webkit-scrollbar {
+  width: 4px; /* width of the scrollbar */
+  height: 4px; /* height of the scrollbar (for horizontal scrollbar) */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* Customize the scrollbar thumb (scrolling handle) */
+::-webkit-scrollbar-thumb {
+  background: rgb(41, 6, 138); /* color of the thumb */
+  border-radius: 4px; /* rounded corners */
+}
+
+/* Change the appearance on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color on hover */
+}
